@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css,/style.css">
+
+	<script src="assets/javascript,/app.js"></script>
+
+
+
+</head>
+<body>
+	<div>
+		<h1>
+			Totally Trivial Trivia!
+		</h1>
+
+		<h3>
+			Time Remaining:<span id="display"></span>
+		</h3>
+		
+<p align="center">
+
+<form method="POST" name="myquiz">
+
+
+<div class="qheader">
+1) What is a volkswagen Type1?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question1">a) A bus.<br>
+<input type="radio" value="b" name="question1">b) A beetle.<br>
+<input type="radio" value="c" name="question1">c) A fastback.<br>
+<input type="radio" value="d" name="question1">d) A squareback.<br>
+</div>
+
+<br>
+
+<div class="qheader">
+2) What is a volkswagen Type2?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question2">a) A bus.<br>
+<input type="radio" value="b" name="question2">b) A beetle.<br>
+<input type="radio" value="c" name="question2">c) A fastback.<br>
+<input type="radio" value="d" name="question2">d) A squareback.<br>
+</div>
+
+<br>
+
+<div class="qheader">
+3) What is a volkswagen Type3?</div>
+<div class="qselections">
+<input type="radio" value="a" name="question3">a) A squareback.<br>
+<input type="radio" value="b" name="question3">b) A notchback.<br>
+<input type="radio" value="c" name="question3">c) A fastback.<br>
+<input type="radio" value="d" name="question3">d) all of the above.<br>
+</div>
+
+<br>
+
+
+	</div>
+
+	</form>
+
+<form>
+<div align="center">
+<input type="button" value="Grade Me!" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
+</form>
+</body>
+</html>

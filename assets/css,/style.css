@@ -1,0 +1,15 @@
+ body{
+	background-image: url("../images/VWBackground.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+	font-family: Arial;
+	color: teal;
+}
+@media only screen and (max-height: 400px) {
+	body{
+		background-size: 400px;
+	}
+	
+}
